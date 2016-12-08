@@ -12,6 +12,8 @@
 		A41054CF1DF890B900972A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41054CD1DF890B900972A7A /* Main.storyboard */; };
 		A41054D11DF890B900972A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41054D01DF890B900972A7A /* Assets.xcassets */; };
 		A41054D41DF890B900972A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41054D21DF890B900972A7A /* LaunchScreen.storyboard */; };
+		A41054DD1DF8940400972A7A /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41054DC1DF8940400972A7A /* Speech.framework */; };
+		A41054DF1DF898E000972A7A /* Sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A41054DE1DF898E000972A7A /* Sample.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A41054D01DF890B900972A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41054D31DF890B900972A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41054D51DF890B900972A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41054DC1DF8940400972A7A /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		A41054DE1DF898E000972A7A /* Sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sample.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41054DD1DF8940400972A7A /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +43,10 @@
 		A41054BD1DF890B900972A7A = {
 			isa = PBXGroup;
 			children = (
+				A41054DE1DF898E000972A7A /* Sample.mp3 */,
 				A41054C81DF890B900972A7A /* Speech Recognition */,
 				A41054C71DF890B900972A7A /* Products */,
+				A41054DB1DF8940400972A7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,14 @@
 				A41054D51DF890B900972A7A /* Info.plist */,
 			);
 			path = "Speech Recognition";
+			sourceTree = "<group>";
+		};
+		A41054DB1DF8940400972A7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41054DC1DF8940400972A7A /* Speech.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +142,7 @@
 				A41054D41DF890B900972A7A /* LaunchScreen.storyboard in Resources */,
 				A41054D11DF890B900972A7A /* Assets.xcassets in Resources */,
 				A41054CF1DF890B900972A7A /* Main.storyboard in Resources */,
+				A41054DF1DF898E000972A7A /* Sample.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
